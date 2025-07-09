@@ -61,7 +61,7 @@ def cleanup_old_backups(folder_path):
                 continue
 
             if delta <= timedelta(days=30):
-                # 只保留每12小时一次的备份
+                # 只保留每12小时一次的备
                 if file_time.hour % 12 != 0:
                     os.remove(os.path.join(folder_path, file))
                     print(f"🗑️ 删除非12小时粒度备份: {file}")
