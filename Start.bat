@@ -1,0 +1,1 @@
+C:\Users\Administrator\PycharmProjects\MCServerAataAutoCopy\.venv\Scripts\python.exe C:\Users\Administrator\PycharmProjects\MCServerAataAutoCopy\main.py
